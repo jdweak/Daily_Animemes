@@ -1,7 +1,7 @@
 # Daily Dose of Reddit
 ## Purpose
 
-### This project was made for the UCSD 2022 Hackathon SD Hacks. This is a solo project and the devpost submission for the project can be found here: 
+### This project was made for the UCSD 2022 Hackathon SD Hacks. This is a solo project and the devpost submission for the project can be found here: https://devpost.com/software/daily-dose-of-reddit
 
 ## Overview
 * This is a Python script that will send an email of the top images from a subreddit specified in the script
