@@ -1,4 +1,4 @@
-# Daily_Reddit
+# Daily Dose of Reddit
 ## Purpose
 
 ### This project was made for the UCSD 2022 Hackathon SD Hacks. This is a solo project and the devpost submission for the project can be found here: 
