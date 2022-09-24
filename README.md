@@ -22,7 +22,7 @@
 **Editing important variables:**
 You must edit various variables in the script to configure it to work for your email. These variables are all in a clearly marked section called _VARIABLES USER MUST EDIT_ in the code. The variables you *MUST* change are:
 1. ```email```: the email that the images will be sent from. Make sure this isn't an important email, since you need weak security settings configured on it for the script to use it. As a note, you have to enable "less secure app access" from your account profile and not have 2 factor authentication on the email for the account to work.
-2. ```password```: the password to the above email
+2. ```password```: The Google App Password for the email: See how to create an App Password for your account [here](https://stackoverflow.com/questions/72478573/how-to-send-an-email-using-python-after-googles-policy-update-on-not-allowing-j)
 3. ```TO```: the email you want images to be sent to
 
 There are also other variables that are optional to edit to change settings:
