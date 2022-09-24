@@ -24,12 +24,14 @@ def send_mail(email, password, FROM, TO, msg):
     server.quit()
 
 # __________________________VARIABLES USER MUST EDIT____________________________________
-# credentials for the email account sending the email. THIS SHOULD BE AN
-# ALTERNATE ACCOUNT YOU HAVE, NOT YOUR MAIN ACCOUNT. THIS PROGRAM ONLY WORKS
-# WITH EMAIL ACCOUNTS WITH WEAK SECURITY SETTINGS FOR AUTHENTICATION, SO DON'T
-# USE AN IMPORTANT EMAIL ACCOUNT FOR THIS
+# credentials for the email account sending the email. Be careful with this, as
+# you are providing the credentials to login to an email. It is reccomended to
+# do this from an alternate account to reduce any security concerns (this
+# version of the script uses Google's updated app passwords model for
+# authentication which is more secure, but better safe than sorry)
+
 email = "your alternative email address"
-password = "alternative email password"
+password = "Google App Password (see README for instructions)"
 
 # this should be the email you want to recieve the images
 TO = "your main email"
